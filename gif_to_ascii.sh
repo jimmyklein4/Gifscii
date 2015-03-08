@@ -2,6 +2,7 @@
 
 mkdir ./imgexp
 
+python ./randomGiphy.py
 convert -coalesce ./giphy.gif ./imgexp/img.jpg
 mv ./imgexp/img-1.jpg ./imgexp/img-01.jpg
 mv ./imgexp/img-2.jpg ./imgexp/img-02.jpg
