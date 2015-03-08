@@ -6,7 +6,7 @@ clear = lambda: os.system('clear')
 while 1:
     for line in file:
         if line == '\n':
-           time.sleep(.05)
+           time.sleep(.07)
            clear()
         print line,
     file.seek(0,0)
