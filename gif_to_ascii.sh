@@ -16,7 +16,7 @@ mv ./imgexp/img-9.jpg ./imgexp/img-09.jpg
 
 #THIS DOESNT WORK BECAUSE IMG.TXT IS HTML AND FINAL ISNT
 #WRITE REGEX TO JUST PUT A BREAK AFTER EACH FRAME
-for i in $( ls ./imgexp/ ); do img2txt.py ./imgexp/$i --maxLen=150 --fontSize=9;  done > ./img.txt
+for i in $( ls ./imgexp/ ); do img2txt.py ./imgexp/$i --maxLen=200 --fontSize=9;  done > ./img.txt
 python ./space.py
 python ./printascii.py
 
