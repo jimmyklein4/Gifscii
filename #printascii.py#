@@ -1,7 +1,7 @@
 import os
 import time
 
-file = open('img.txt','r')
+file = open('final.txt','r')
 clear = lambda: os.system('clear')
 while 1:
     for line in file:
